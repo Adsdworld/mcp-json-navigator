@@ -20,6 +20,24 @@ Require [FileSystem](https://github.com/modelcontextprotocol/servers/tree/main/s
 git clone https://github.com/Adsdworld/mcp-json-navigator && npm install && npm run build
 ```
 
+## ⚙️ Configuration
+
+Add to your MCP settings file (e.g., `claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "json-navigator": {
+      "command": "node",
+      "args": ["C:\\Users\\YOUR_USERNAME\\mcp-json-navigator\\build\\index.js"]
+    }
+  }
+}
+```
+
+Replace `YOUR_USERNAME` and the path with your actual installation location.
+---
+
 ## 🔎 Json-query
 ```json
 { 
@@ -145,24 +163,6 @@ query: "variation" ✓
 
 When `caseSensitive: true`, returns an additional `exactMatch` field with results that contain the exact query string.
 
-
-
-## ⚙️ Configuration
-
-Add to your MCP settings file (e.g., `claude_desktop_config.json`):
-
-```json
-{
-  "mcpServers": {
-    "json-navigator": {
-      "command": "node",
-      "args": ["C:\\Users\\YOUR_USERNAME\\mcp-json-navigator\\build\\index.js"]
-    }
-  }
-}
-```
-
-Replace `YOUR_USERNAME` and the path with your actual installation location.
 
 ## 🚀 Usage Examples
 
