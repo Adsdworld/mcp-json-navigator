@@ -16,8 +16,13 @@ Require [FileSystem](https://github.com/modelcontextprotocol/servers/tree/main/s
 --- 
 ## 📦 Installation
 
+MacOS/Linux
+```shell
+git clone https://github.com/Adsdworld/mcp-json-navigator && cd mcp-json-navigator && npm install && npm run build
+```
+Windows (tested)
 ```bash
-git clone https://github.com/Adsdworld/mcp-json-navigator && npm install && npm run build
+git clone https://github.com/Adsdworld/mcp-json-navigator; cd mcp-json-navigator; npm install; npm run build
 ```
 
 ## ⚙️ Configuration
