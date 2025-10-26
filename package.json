@@ -1,0 +1,59 @@
+{
+  "name": "mcp-json-explorer",
+  "version": "1.0.0",
+  "description": "MCP server for intelligent JSON navigation and search - designed for AI assistants working with large JSON files",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "largeFile",
+    "json",
+    "mcp",
+    "model-context-protocol",
+    "json",
+    "json-navigator",
+    "json-explorer",
+    "json-search",
+    "fuzzy-search",
+    "ai-tools",
+    "llm-tools",
+    "claude",
+    "anthropic",
+    "large-json",
+    "json-parser",
+    "json-query",
+    "developer-tools",
+    "ai-assistant",
+    "context-protocol",
+    "json-analysis",
+    "data-navigation"
+  ],
+  "author": "Adsdworld",
+  "bugs": {
+    "url": "https://github.com/Adsdworld/mcp-json-navigator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adsdworld/mcp-json-navigator.git"
+  },
+  "homepage": "https://github.com/Adsdworld/mcp-json-navigator#readme",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-json-explorer": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "fast-fuzzy": "^1.12.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
